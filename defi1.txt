@@ -1,0 +1,170 @@
+Exercice:
+This an example of function
+ function hello() {
+   return "Hello simplonien"
+  }
+All you have to do is type return "Hello simplonien" between the curly braces { }
+
+Exercice:
+Create a function that takes two numbers as arguments and returns their sum.
+                                 
+function sumNumber(num1,num2){
+return num1+num2
+}
+
+Exercice:
+Write a function that takes the base and height of a triangle as arguments and returns its area.
+
+                                  
+
+function areaTriangle(base,height){
+return (base*height)/2
+}
+
+Exercice:
+Write a function that takes the height and the width of rectangle as arguments and returns its perimeter.
+
+                                 
+
+function perimeter(width,height){
+return (width+height)*2
+}
+
+Exercice:
+Write a function that takes a number as argument and returns it
+square.
+                                   
+
+function square(num) { 
+return num*num
+
+}
+Exercice:
+Write a function that takes two numbers are passed as parameters. The first parameter divided by the second parameter will have the remainder
+returns that value.
+                                   
+
+function remainder(num1,num2){
+
+   return num1 % num2
+ }
+
+function remainder(num1,num2)
+
+Exercice:
+Write a function that takes hours as argument  and converts its into seconds.
+howManySeconds(2) ➞ 7200
+
+                                   
+
+function howManySeconds(hours){
+return 60*60*hours
+}
+
+
+Exercice:
+Write a function that takes two arguments (hours, minutes) and converts them into seconds.
+
+                               
+function howManySeconds(hours,minutes) { 
+
+
+return (60*minutes)+(60*60*hours) 
+}
+
+
+Exercice:
+Create a function that takes a name as argument and returns  a greeting in the form of a string → "Hello name!".
+Don't forget the exclamation mark!
+
+sayHello("Simplon") ➞ "Hello Simplon!"
+
+function sayHello(name) { 
+ 
+return "Hello"+" "+name+"!"
+ }
+ 
+
+Exercice:
+Create a function that  takes a string as argument and returns the length of this string.
+
+function StrLength(string) { 
+
+return string.length
+
+ }
+
+
+Exercice:
+Create a function that takes two strings as arguments, firstName and lastName, and returns a single string in the format "last, first".
+
+                               
+function LastFirst(first, last) { 
+
+return last+","+ first
+
+}
+
+Exercice:
+Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+increment(3)➞4
+                                   
+function increment(num) { 
+
+return num+1
+}
+
+Exercice:
+Create a function that returns the total number of parameters passed in.
+numberArgs("a", "b") ➞ 2
+numberArgs(10, 20, 30, 40, 50,70) ➞ 6
+                                    
+function numArgs(/* fill-in */) { 
+return numArgs.length
+}
+
+Exercice:
+Write two functions; 
+the first one takes a string as argument and returns 
+  toInt("5") ➞ 5
+the second function takes a number as argument and returns
+ toStr(100) ➞ "100"
+                             
+ function numArgs(a) { 
+ return Number(a)
+}
+                              
+ function numArgs(b) { 
+ return b.toString()
+ }
+
+
+Exercice:
+Create a function that takes a character as argument then returns its ASCII value.
+("A") ➞ 65
+("m") ➞ 109
+("\") ➞ 92
+function toascii(A){
+return A.charCodeAt()
+}
+
+
+
+Exercice:
+Create a function that takes a number as an argument and returns the amount of digits it has.
+(123) ➞ 3
+(7154) ➞ 4
+(0) ➞ 1
+function somnum(A){
+ let B = A.toString()
+  return B.length
+
+}
+
+
+
+
+
+
+
+
