@@ -37,9 +37,9 @@
 
                console.log(msg)
 
-.A :  👉️"You succeed"
+.A :  "You succeed"
 .B :  "You don't succeed"
-.C :  "in this year"  
+.C :  👉️"in this year"  
 .D :  "You don't succeed in this year"
 .E : "You succeed in this year "
 
@@ -74,10 +74,10 @@
 
                console.log(msg)
 
-👉️.A :  "You succeed"
+.A :  "You succeed"
 .B :  "You don't succeed"
 .C :  "in this year"  
-.D :  "You don't succeed in this year"
+.👉️D :  "You don't succeed in this year"
 
 
 
@@ -106,9 +106,9 @@ if ( 0 )
 else 
   console.log("FALSE")
 
-.A :  "TRUE"
+👉️.A :  "TRUE"
 .B :  "FALSE"
-👉️.C :  nothing 
+.C :  nothing 
 
 # Q9 What will be output of the following code fragment ?
 
@@ -117,16 +117,16 @@ if ( 10 )
 else 
   console.log("FALSE")
 
-.A :  "TRUE"
+👉️.A :  "TRUE"
 .B :  "FALSE"
-👉️.C :  nothing 
+.C :  nothing 
 
 
 
 # Q10   What happens when an If statements conditional is not true?
 
-👉️.A :  nothing
-.B :  The If statement starts over 
+.A :  nothing
+👉️.B :  The If statement starts over 
 .C :  The If statement executes
 
 # Q11 . How to write an ‘if’ statement for executing some code.
@@ -146,7 +146,7 @@ If “i” is NOT equal to 5?
 .C :  continue;
 
 # Q13  What is the correct syntax of Switch statement ?
-👉️//Answer 1
+//Answer 1
 let month = 2
 let monthString=""
 switch (month) {
@@ -183,7 +183,7 @@ switch (month) {
 }
 
 .A :  Answer 1
-.B :  Answer 2
+👉️.B :  Answer 2
 .C :  Awswer 3
 
 # Q14 Curly braces {} are required in cases :
@@ -251,9 +251,9 @@ switch ( code )
 
 # Q18  Which of the following cases is a correct way to write a case for a switch statement?
                          
-👉️.A :  case "Oussema";
+.A :  case "Oussema";
 .B :  case "Oussema"::
-.C :  case "Oussema":
+👉️.C :  case "Oussema":
 
 # Q19  The default case is executed if all the other cases for a switch statement evaulate to false?
 
